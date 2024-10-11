@@ -14,6 +14,6 @@ steps:
            '--allow-unauthenticated']
 
 options:
-      logging: NONE
+      logging: GCS_ONLY
 images:
   - us-central1-docker.pkg.dev/$PROJECT_ID/$REPO_NAME/hello-world-python:$SHORT_SHA
